@@ -1618,7 +1618,7 @@ def generar_presupuesto_año(archivo_excel):
         cerrar_cargando()
         messagebox.showerror("Error", f"Ocurrió un error:\n{e}")
 
-# ==== Interfaz ====
+ # ==== Interfaz ====
 ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
 app = ctk.CTk()
