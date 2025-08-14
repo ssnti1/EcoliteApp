@@ -1623,7 +1623,7 @@ ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
 app = ctk.CTk()
 app.title("🔦 EcoLite")
-app.state('zoomed')  # maximizado normal
+app.geometry("1280x620")
 app.resizable(True, True)
 
 # Panel izquierdo
